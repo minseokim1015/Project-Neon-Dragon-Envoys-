@@ -1,0 +1,110 @@
+body
+{
+    background: #031321;
+    text-align: center;
+    color: rgb(240, 242, 252);
+    font-family: consolas;
+}
+
+p {
+    font-family: consolas;
+}
+
+.format {
+    font-family: consolas;
+    text-align: center;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+#init 
+{
+    color: white;
+}
+
+.neon {
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background: #031321;
+    font-family: consolas;
+}
+.neon
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px; 
+    overflow: hidden;
+    transition: 0.2s;
+}
+.neon:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    height: 50 px;
+    transition-delay: 1s;
+}
+
+.neon span
+{
+    position: absolute;
+    display: block;
+}
+.neon span:nth-child(1)
+{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3)
+}
+.neon:hover span:nth-child(1)
+{
+    left:100%;
+    transition: 1s;
+}
+
+.neon span:nth-child(3)
+{
+    bottom:0; 
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3)
+}
+.neon:hover span:nth-child(3)
+{
+    right:100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.myDiv {
+    border: 3 px lightskyblue;    
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+  }
+  
+#image {
+    height: 60%;
+    width: 60%;
+    margin:auto;
+}
+
+#headerDiv {
+    height:60px;
+    width:100%;
+    background-color: #1c6cad;
+    text-align:left;
+}
